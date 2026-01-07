@@ -12,8 +12,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-STATIC_URL = 'static/'
-STATIC_ROOT = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 

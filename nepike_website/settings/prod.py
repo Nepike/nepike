@@ -33,7 +33,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 STATIC_URL = 'static/'
-STATIC_ROOT = 'static/'
+STATIC_ROOT = BASE_DIR / 'static/'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
